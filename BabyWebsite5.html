@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset = "utf-8"/>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+
+<script type="text/javascript" src="fadeslideshow.js">
+
+/*
+ Ultimate Fade In Slideshow v2.0- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+ This notice MUST stay intact for legal use
+ Visit Dynamic Drive at http://www.dynamicdrive.com/ for this script and 100s more
+*/
+
+</script>
+
+<script type="text/javascript">
+
+var mygallery2=new fadeSlideShow({
+	wrapperid: "fadeshow2", //ID of blank DIV on page to house Slideshow
+	dimensions: [780, 500], //width/height of gallery in pixels. Should reflect dimensions of largest image
+	imagearray: [
+		["Pictures of babies/Front slide show/baby2.jpg", "Clothes.html", "", "No matter what time of the year it is, all of our clothes are in season."],
+		["Pictures of babies/Front slide show/baby4.jpg", "Toys2.html", "", "Toys for all occasions."],
+		["Pictures of babies/Front slide show/baby3.jpg", "Clothes.html", "", "Select from our finest wardrobe!"],
+		["Pictures of babies/Front slide show/baby1.jpg", "Accessories.html", "", "Clothes for all types of children."] //<--no trailing comma after very last image element!
+	],
+	displaymode: {type:'manual', pause:2500, cycles:0, wraparound:false},
+	persist: false, //remember last viewed slide and recall within same session?
+	fadeduration: 500, //transition duration (milliseconds)
+	descreveal: "peekaboo",
+	togglerid: "fadeshow2toggler"
+})
+
+</script>
+<style>
+a:link {color:#000000;}
+a:visited {color:#000000;}
+a:hover {color:#000000;}
+a:active {color:#000000;}
+
+.border
+{
+border-style:solid;
+border-width:1px;
+border-color:grey;
+}
+
+body
+{
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+@font-face
+{
+font-family: Title;
+src: url(ATR.ttf);
+}
+
+.title
+{
+	font-family: Title;
+}
+</style>
+<title>Baby Time</title>
+</head>
+<body>
+
+<div id="Banner" style="height:66px;width:100%;text-align:center;background:url(Backgrounds.jpg);">
+	<a href="BabyWebsite5.html" style="text-decoration:none"><font class="title" size="7">Baby Time</font></a>
+</div>
+
+<center>
+<div id="Header" style="height:20px;width:80%;margin-left:13%;margin-top:9px;">
+
+	<a href="BabyWebsite5.html"><div id="Home" style="width:8%;float:left;"><font size="4">HOME</font></div></a>
+	<a href="About Us.html"><div id="AboutUs" style="width:18%;float:left;"><font size="4">ABOUT US</font></div></a>
+	<div id="BlackSeparator" style="width:2px;background-color:black;float:left;">|</div>
+	<a href="Toys2.html"><div id="Toys2" style="width:14.285%;float:left;"><font size="4">TOYS</font></div></a>
+	<a href="Accessories.html"><div id="Accessories" style="width:14.285%;float:left;"><font size="4">ACCESSORIES</font></div></a>
+	<a href="Member.html"><div id="Member" style="width:14.285%;float:left;"><font size="4">MEMBER</font></div></a>
+	<a href="Clothes.html"><div id="Clothes" style="width:14.285%;float:left;"><font size="4">CLOTHES</font></div></a>
+
+</div>
+</center>
+
+<div id="Border2" style="height:1px;width:100%;background-color:black;float:left;margin-top:1%;">
+</div>
+
+<div id="Background" style="height:404.8px;width:100%;background-color:white;margin-top:0.75%;">
+
+<div id="Border" style="height:1350px;width:100%">
+
+<div id="Picture" style="height:100%;width:60%;margin-top:2%;margin-left:5%;float:left">
+
+<div id="fadeshow2" style="width:780px;height:500px"></div>
+
+<center>
+<div id="fadeshow2toggler" style="width:780px; height:30px;margin-right:10%;margin-top:2%;">
+<a href="#" class="prev"><img src="http://www.dynamicdrive.com/dynamicindex14/left.png" style="border-width:0" /></a>  <span class="status" style="margin:0 50px; font-weight:bold"></span> <a href="#" class="next"><img src="http://www.dynamicdrive.com/dynamicindex14/right.png" style="border-width:0" /></a>
+</div></center>
+
+<div id="Black bar3" style="float:left;height:0.06%;width:21.5%;background-color:black;margin-top:4.85%;margin-left:12.175%">
+</div>
+<div id="Words2" style="float:left;width:28.5%;margin-left:1.5%;margin-top:2.5%;"><font size="5">WHAT TO <b>BROWSE</b></font>
+</div>
+<div id="Black bar4" style="float:left;height:0.81px;width:21.5%;background-color:black;margin-top:4.85%;margin-left:1%">
+</div>
+
+<div id="Toys" style="height:42.25%;width:50%;float:left;">
+<a href="Accessories.html"><img src="Pictures of Babies/sweetbaby.jpg" style="width:390px;height:490px;margin-top:7%;"></a>
+
+<div id="ToyHeaderText" style="height:10%;width:100%;text-align:center;margin-top:2%;">
+<font color="#4C4C3D" size="5">ACCESSORIES</font>
+
+<hr style="border-top:dotted 1px;width:100%;margin-top:2%;text-align:center;"/>
+
+<div style="width:100%;text-align:center;">
+<font color="#4C4C4C" size="4">Accessories so unique and exclusive it transports your look to another world.</font>
+</div>
+
+<div style="height:40%;width:30%;background-color:black;margin-top:5%;margin-left:34%;">
+<a href="Accessories.html"><font size="4" color="white">VIEW NOW</font></a>
+</div>
+
+</div>
+
+</div>
+
+<div id="Toys" style="height:42.25%;width:50%;float:left;">
+<a href="Toys2.html"><img src="Pictures of Babies/Pony.jpg" style="width:390px;height:351px;margin-top:7%;"></a>
+
+<div id="ToyHeaderText" style="height:10%;width:100%;text-align:center;margin-top:2%;">
+<font color="#4C4C3D" size="5">TOYS</font>
+
+<hr style="border-top:dotted 1px;width:100%;margin-top:2%;text-align:center;"/>
+
+<div style="width:100%;text-align:center;">
+<font color="#4C4C4C" size="4">Introduce yourself to the world of imagination and creativity.</font>
+</div>
+
+<div style="height:40%;width:30%;background-color:black;margin-top:5%;margin-left:34%;">
+<a href="Toys2.html"><font size="4" color="white">VIEW NOW</font></a>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div id="RightTable" class="border"  style="width:28%;height:95%;float:left; margin-left:2%;margin-top:2%;margin-bottom:2%;background-color:#E6E6E6;">
+	<div id="Black bar1" style="height:1px;width:18%;background-color:black;margin-top:9%;margin-left:7%;float:left;">
+	</div>
+	<div id="Words1" style="float:left;width:45%;margin-left:5%;margin-top:4.5%;"><font size="5">BE <b>ADMIRED</b></font>
+	</div>
+	<div id="Black bar2" style="height:1px;width:18%;background-color:black;margin-top:9%;margin-left:1%;float:left;">
+	</div>
+	
+	<div id="TableImage1" style="width:300px;height:240;margin-left:10%;margin-top:18%;">
+	<a href="Clothes.html"><img src="Pictures of Babies\Cute-Baby-Girl1.jpg" style="width:100%;height:100%;"></a>
+	</div>
+	
+	<div id="FormalText" style="width:80%;height:1.9%;margin-left:18%;margin-top:3%;">
+	<font color="#4C4C4C" size="4"><b>THE FORMAL WARDROBE</b></font>
+	</div>
+	<div id="FormalText" style="width:80%;height:4%;margin-left:9%;text-align:center;">
+	<font color="#4C4C4C" size="4">Select from our finest assortments of dresses.</font>
+	</div>
+	
+	<hr style="border-top:dotted 1px;width:80%" />
+	
+	<div id="TableImage1" style="width:300px;height:240;margin-left:10%;margin-top:11%;">
+	<a href="Clothes.html"><img src="Pictures of Babies/formal.jpg" style="width:100%;height:100%;"></a>
+	</div>
+	
+	<div id="FormalText" style="width:80%;height:1.9%;margin-left:37.5%;margin-top:3%;">
+	<font color="#4C4C4C" size="4"><b>TIMELESS</b></font>
+	</div>
+	<div id="FormalText" style="width:80%;height:2.5%;margin-left:10%;text-align:center;">
+	<font color="#4C4C4C" size="4">Colour and style that never gets old.</font>
+	</div>
+	
+	<hr style="border-top:dotted 1px;width:80%" />
+	
+	<div id="TableImage1" style="width:300px;height:240;margin-left:10%;margin-top:11%;">
+	<a href="Clothes.html"><img src="Pictures of Babies/babymodels.jpeg" style="width:100%;height:100%;"></a>
+	</div>
+	
+	<div id="FormalText" style="width:80%;height:1.9%;margin-left:38.5%;margin-top:3%;">
+	<font color="#4C4C4C" size="4"><b>FASHION</b></font>
+	</div>
+	<div id="FormalText" style="width:80%;height:4.5%;margin-left:10%;text-align:center;">
+	<font color="#4C4C4C" size="4">Clothes with comfort and style no matter the occasion.</font>
+	</div>
+	
+	<hr style="border-top:dotted 1px;width:80%" />
+	
+</div>
+
+</div>
+</div>
+
+</body>
+</html>
